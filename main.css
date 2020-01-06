@@ -1,0 +1,33 @@
+input {
+    display: block;
+    box-sizing: content-box;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    height: 2em;
+    margin: 1em;
+    border-radius: 6px;
+}
+
+input.quiet {
+    background-color: lightblue;
+    border-color: rgb(192, 217, 226);
+}
+
+input.quiet:active, input.quiet:hover, input.quiet:focus {
+    background-color: rgb(108, 199, 130);
+    border-color: rgb(150, 202, 166);
+    outline: none;
+    border-style: solid;
+}
+
+input.attention {
+    background-color: lightcoral;
+    border-color: #ff9292;
+}
+
+input.attention:active, input.attention:hover, input.attention:focus {
+    background-color: rgb(240, 177, 75);
+    border-color: rgb(238, 187, 106);
+    outline: none;
+    border-style: solid;
+}
